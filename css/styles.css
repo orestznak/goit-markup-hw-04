@@ -181,7 +181,12 @@ img {
 /*hero*/
 .hero {
   /*background-color: var(--footer-background-color);*/
-
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background-image: linear-gradient(
       var(--hero-overlay-color),
       var(--hero-overlay-color)
@@ -359,7 +364,8 @@ img {
 }
 
 .position {
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
