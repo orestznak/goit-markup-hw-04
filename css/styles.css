@@ -141,8 +141,9 @@ img {
 }
 
 .nav-adress .adress {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -195,11 +196,6 @@ img {
 
   background-repeat: no-repeat;
   background-size: cover;
-}
-.hero .container {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -262,12 +258,10 @@ img {
 }
 
 .features-list-icon {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 100px;
   background-color: var(--background-section-color);
   width: 270px;
   height: 120px;
@@ -461,6 +455,7 @@ footer {
 
 footer .container {
   display: flex;
+  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -528,6 +523,13 @@ footer .title {
   height: 44px;
   background-color: var(--footer-social-icon);
   border-radius: 50%;
+}
+.socialbar-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
 }
 
 .socialbar-list-icon {
