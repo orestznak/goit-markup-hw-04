@@ -417,6 +417,8 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.client-list-link,
 .client-list-item {
   display: flex;
   justify-content: center;
